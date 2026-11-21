@@ -1,44 +1,196 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EcoSphere Digital Library</title>
-    <style>
-        body {
-            margin: 0;
-            font-family: Arial, sans-serif;
-            background-color: #E8E1D8;
-            color: #263D2C;
-            text-align: center;
-        }
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>EcoSphere Digital Library</title>
 
-        header {
-            background-color: #263D2C;
-            color: white;
-            padding: 60px 20px;
-        }
+<style>
 
-        h1 {
-            font-size: 42px;
-        }
+body{
+    margin:0;
+    font-family: Georgia, serif;
+    background:url('bamboo.jpg') center center fixed;
+    background-size:cover;
+}
 
-        section {
-            padding: 40px 20px;
-        }
-    </style>
+header{
+    background:#ffffff;
+    padding:15px 50px;
+}
+
+header h1{
+    margin:0;
+    color:#263D2C;
+}
+
+nav{
+    background:#155724;
+    padding:15px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:0 20px;
+    font-weight:bold;
+    font-size:14px;
+}
+
+.container{
+    max-width:1100px;
+    margin:40px auto;
+    background:rgba(255,255,255,0.95);
+    padding:40px;
+}
+
+.hero{
+    background:#cfc7bc;
+    text-align:center;
+    padding:30px;
+}
+
+.hero img{
+    width:100%;
+    max-width:800px;
+}
+
+.hero h2{
+    margin-top:20px;
+    color:#ffffff;
+}
+
+.tagline{
+    color:white;
+    font-style:italic;
+    font-weight:bold;
+}
+
+.section{
+    background:#f6f1ea;
+    margin-top:20px;
+    padding:20px;
+}
+
+.section h2{
+    color:#263D2C;
+}
+
+.button{
+    display:inline-block;
+    background:#5D8A58;
+    color:white;
+    text-decoration:none;
+    padding:14px 28px;
+    border-radius:30px;
+    margin-top:10px;
+    font-weight:bold;
+}
+
+.card{
+    background:#dcc195;
+    padding:20px;
+    text-align:center;
+    margin:15px 0;
+}
+
+footer{
+    background:#1f1f1f;
+    color:white;
+    padding:20px;
+    text-align:center;
+    margin-top:40px;
+}
+
+</style>
+
 </head>
 <body>
 
 <header>
     <h1>EcoSphere Digital Library</h1>
-    <p>Connecting Knowledge, Inspiring Sustainability.</p>
 </header>
 
-<section>
-    <h2>Welcome to EcoSphere</h2>
-    <p>Explore knowledge on ecotourism, sustainable tourism and environmental conservation.</p>
-</section>
+<nav>
+    <a href="#">Home</a>
+    <a href="#">About Us</a>
+    <a href="#">OPAC Catalogue</a>
+    <a href="#">Digital Repository</a>
+    <a href="#">E-Resources</a>
+    <a href="#">Contact Us</a>
+</nav>
+
+<div class="container">
+
+<div class="hero">
+    <img src="hero.jpg" alt="EcoSphere Hero">
+
+    <h1>EcoSphere Digital Library</h1>
+
+    <p class="tagline">
+        Connecting Knowledge, Inspiring Sustainability.
+    </p>
+
+    <p>
+        Explore a world of knowledge on ecotourism, sustainable tourism and environmental conservation through our digital collections.
+    </p>
+
+    <a href="#" class="button">Explore Our Collection</a>
+</div>
+
+<div class="section">
+    <h2>About EcoSphere</h2>
+
+    <p>
+        EcoSphere Digital Library is a digital platform that provides access to information and resources related to ecotourism, sustainable tourism and environmental conservation.
+    </p>
+</div>
+
+<div class="section">
+    <h2>Explore Our Collection</h2>
+
+    <div class="card">
+        <a class="button" href="#">E-Books</a>
+    </div>
+
+    <div class="card">
+        <a class="button" href="#">E-Journals</a>
+    </div>
+
+    <div class="card">
+        <a class="button" href="#">E-Magazines</a>
+    </div>
+</div>
+
+<div class="section">
+    <h2>Explore Our Digital Services</h2>
+
+    <div class="card">
+        <a class="button" href="#">OPAC Catalogue</a>
+    </div>
+
+    <div class="card">
+        <a class="button" href="#">Digital Repository</a>
+    </div>
+</div>
+
+<div class="section">
+    <h2>Explore Sustainability</h2>
+
+    <p>
+        Discover knowledge that promotes responsible tourism, environmental awareness and sustainable practices.
+    </p>
+
+    <a href="#" class="button">Discover More</a>
+</div>
+
+</div>
+
+<footer>
+    <strong>EcoSphere Digital Library</strong><br><br>
+    Connecting Knowledge, Inspiring Sustainability.<br><br>
+    © 2026 EcoSphere Digital Library
+</footer>
 
 </body>
 </html>
